@@ -1,6 +1,5 @@
 import mongoose  from 'mongoose';
-import { Rent_info } from '../Models/Rent.model.js';
-
+import Rent_info from '../models/Rent.model.js'
 
 export const getInfo = async(req, res)=>{
     try{
